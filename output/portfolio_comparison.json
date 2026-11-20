@@ -1,0 +1,9 @@
+{
+  "results": [
+    {"strategy":"Greedy Heuristic","cost":6100,"return":65,"risk":20,"time_ms":0.000000,"memory_bytes":40,"exact":false,"assets":["ITC","WIPRO","SBIN","ICICIBANK","INFY","HDFCBANK"]},
+    {"strategy":"Dynamic Programming","cost":9650,"return":70,"risk":20,"time_ms":13.000000,"memory_bytes":9240924,"exact":true,"assets":["BHARTIARTL","ITC","ICICIBANK","HDFCBANK","TCS","RELIANCE"]},
+    {"strategy":"B&B FIFO","cost":9650,"return":70,"risk":19,"time_ms":0.000000,"memory_bytes":133120,"exact":true,"assets":["TCS","INFY","HDFCBANK","ICICIBANK","WIPRO","BHARTIARTL"]},
+    {"strategy":"B&B LIFO","cost":9150,"return":70,"risk":20,"time_ms":0.000000,"memory_bytes":133120,"exact":true,"assets":["TCS","INFY","HDFCBANK","ITC","SBIN","BHARTIARTL"]},
+    {"strategy":"B&B Least Cost","cost":9150,"return":70,"risk":20,"time_ms":0.000000,"memory_bytes":133120,"exact":true,"assets":["TCS","INFY","HDFCBANK","ITC","SBIN","BHARTIARTL"]}
+  ]
+}

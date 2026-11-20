@@ -1,0 +1,15 @@
+category,algorithm,scenario,input_size,time_ms,space_bytes,quality,objective
+sorting,Merge Sort,small-reverse,100,0.000000,10400,exact,sorted
+sorting,Quick Sort,small-reverse,100,0.000000,5200,exact,sorted
+sorting,Merge Sort,medium-reverse,1000,0.000000,104000,exact,sorted
+sorting,Quick Sort,medium-reverse,1000,1.000000,52000,exact,sorted
+sorting,Merge Sort,large-reverse,10000,2.000000,1040000,exact,sorted
+sorting,Quick Sort,large-reverse,10000,1.000000,520000,exact,sorted
+sorting,Merge Sort,stress-reverse,50000,10.000000,5200000,exact,sorted
+sorting,Quick Sort,stress-reverse,50000,5.000000,2600000,exact,sorted
+sorting,Merge Sort,adversarial-many-duplicates,50000,10.000000,5200000,exact,sorted
+sorting,Quick Sort,adversarial-many-duplicates,50000,7.000000,2600000,exact,sorted
+portfolio,Greedy Heuristic,normal,10,0.000000,40,heuristic,65
+portfolio,Dynamic Programming,normal,10,13.000000,9240924,exact,70
+portfolio,Greedy Heuristic,constraint-shock,10,0.000000,40,heuristic,30
+portfolio,Dynamic Programming,constraint-shock,10,4.000000,2420484,exact,39

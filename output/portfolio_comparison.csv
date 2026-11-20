@@ -1,0 +1,6 @@
+strategy,cost,return,risk,time_ms,memory_bytes,exact
+Greedy Heuristic,6100,65,20,0.000000,40,0
+Dynamic Programming,9650,70,20,13.000000,9240924,1
+B&B FIFO,9650,70,19,0.000000,133120,1
+B&B LIFO,9150,70,20,0.000000,133120,1
+B&B Least Cost,9150,70,20,0.000000,133120,1
